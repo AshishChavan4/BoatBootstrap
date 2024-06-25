@@ -1,0 +1,138 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav {
+    border-bottom: 1px solid silver;
+    background-color: #fff;
+
+}
+
+.carousel-indicators button {
+    background-color: blue;
+}
+
+button.carousel-control-next .carousel-control-next-icon,
+button.carousel-control-prev .carousel-control-prev-icon {
+    background-color: black;
+    background-size: 25px;
+    border-radius: 50%;
+}
+
+
+#categories p {
+    padding: 15px 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.category {
+    font-weight: bolder;
+    border-bottom: 2px solid;
+}
+
+.card-title {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.product button,
+.product-latest button {
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.877);
+    border: none;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.btn.btn.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.celebrities h4 {
+    padding-top: 12px;
+}
+
+.celebrities p {
+    padding: 5px;
+}
+
+.Blogs button {
+    width: 100%;
+    background-color: rgb(17, 1, 1);
+    border: rgb(32, 1, 1);
+}
+
+.press img{
+   margin-top: 30%;
+}
+.press p{
+    margin-top: 15%;
+}
+
+.footer{
+    background-color: aliceblue;
+}
+
+ ul li{
+    list-style: none;
+    font-size: 12px;
+}
+.footer p{
+    padding-left: 17%;
+    font-weight: 800;
+}
+
+.two{
+    padding-top: 38px;
+}
+
+@media(max-width:900px){
+ .product .one{
+    width: 50%;
+    margin-bottom: 18px;
+ }
+
+ .product-latest .one{
+    width: 50%;
+    margin-bottom: 18px;
+ }
+}
+
+
+@media(max-width:768px){
+    .celebrities .one{
+        width: 50%;
+        margin-bottom: 18px;
+     }
+
+     .footer .one{
+        width: 50%;
+        margin-bottom: 18px;
+     }
+}
+
+@media(max-width:468px){
+    .product .one{
+       width: 100%;
+       margin-bottom: 18px;
+    }
+   
+    .product-latest .one{
+       width: 100%;
+       margin-bottom: 18px;
+    }
+
+    .celebrities .one{
+        width: 100%;   
+     }
+
+     .footer .one{
+        width: 100%;  
+     }
+   }
